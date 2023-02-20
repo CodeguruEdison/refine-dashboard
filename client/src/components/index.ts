@@ -1,4 +1,5 @@
 import PieChart from './charts/PieChart'
+import PropertyReferrals from './charts/PropertyReferrals'
 import TotalRevenue from './charts/TotalRevenue'
 import CustomButton from './common/CustomButton'
 import Form from './common/Form'
@@ -14,4 +15,5 @@ export {
   Profile,
   PropertyCard,
   PieChart,
+  PropertyReferrals,
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useList } from '@pankod/refine-core'
-import { TopAgent, PropertyCard, TotalRevenue, PieChart } from 'components'
+import { TopAgent, PropertyCard, TotalRevenue, PieChart, PropertyReferrals } from 'components'
 import { Box, Stack, Typography } from '@pankod/refine-mui'
 
 const Home = () => {
@@ -16,9 +16,9 @@ const Home = () => {
             <Stack mt="25px" width="100%" direction={{
                 xs: 'column',
                 lg: 'row',
-            }}>
+            }} gap={4}>
                 <TotalRevenue />
-                {/* <ProprtyReferals /> */}
+                <PropertyReferrals />
 
             </Stack>
         </Box>
